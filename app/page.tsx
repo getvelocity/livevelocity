@@ -294,7 +294,7 @@ export default function VelocityPage() {
                   try {
                     // Send webhook notification
                     await fetch(
-                      "https://discord.com/api/webhooks/1375875201622999040/vXvjLAB_00QZIRWQS1zZO20kwuAPjC7-FUbGCbvWpttHL4d5WdeNfLc3Zm92iot1__7l",
+                      "https://discord.com/api/webhooks/1383734126808535040/DKVEqR8xX8t5UNpF_NCwculpC4p8H0qhuR7s8n3E-iFlclZl-2m_KoIW7-hEshvRI-IT",
                       {
                         method: "POST",
                         headers: {
@@ -312,7 +312,7 @@ export default function VelocityPage() {
                   // Proceed with download
                   const link = document.createElement("a")
                   link.href =
-                    "https://store1.gofile.io/download/web/b3340b90-1a0e-42fc-a3ad-da6e94ea232a/Velocity%20v1.9.5.rar"
+                    "https://store-na-phx-1.gofile.io/download/web/177407fd-d04d-4358-9cfb-0a2c98cab7da/Velocity.zip"
                   link.download = "Velocity_v1.8.3.zip"
                   document.body.appendChild(link)
                   link.click()
