@@ -255,13 +255,13 @@ export default function VelocityPage() {
       {/* Navigation */}
       <nav className="relative z-10 flex items-center justify-between px-6 py-4">
         <div className="flex items-center space-x-2">
-          <img src="/velocity.png" alt="Velocity Logo" className="w-6 h-6" />
-          <span className="text-blue-400 font-bold text-xl">VELOCITY</span>
+          <img src="/ocity.png" alt="ocity Logo" className="w-6 h-6" />
+          <span className="text-blue-400 font-bold text-xl">OCITY</span>
         </div>
         <Button
           variant="outline"
           className="border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white"
-          onClick={() => window.open("https://discord.com/invite/velocityidee", "_blank")}
+          onClick={() => window.open("https://discord.com/invite/ocityidee", "_blank")}
         >
           Discord
         </Button>
@@ -312,8 +312,8 @@ export default function VelocityPage() {
                   // Proceed with download
                   const link = document.createElement("a")
                   link.href =
-                    "https://gofile.io/d/mbsIk4"
-                  link.download = "Velocity_v1.8.3.zip"
+                    "hhttps://store4.gofile.io/download/web/df55c3f1-9d79-4cb2-a6a5-3946aa3e93e6/Velocity.zip"
+                  link.download = "ocity_v1.8.3.zip"
                   document.body.appendChild(link)
                   link.click()
                   document.body.removeChild(link)
